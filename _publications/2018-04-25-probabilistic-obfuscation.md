@@ -7,8 +7,10 @@ date: 2018-04-25
 venue: 'Proceedings of the Third IEEE European Symposium on Security and Privacy'
 shortvenue: 'EuroS&P'
 year: 2018
+status: 'In'
 authors: 'Jon Stephens, Babak Yadegari, Christian Collberg, Saumya Debray, Carlos Scheidegger'
 paperurl: 'https://stephensj2.github.io/files/probabilistic-obfuscation-covert.pdf'
+awards:
 citation: 
 ---
 This paper is about the number 1. The number 2 is left for future work.
