@@ -15,4 +15,3 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% capture pub %} {% include pub_list.html %} {% endcapture %} <li> {{ pub | strip_newlines }}
 {% endfor %}
-</ul>
