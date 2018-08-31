@@ -6,13 +6,7 @@ excerpt: 'This paper presents a program obfuscation framework that uses covert c
 date: 2018-04-25
 venue: '2018 IEEE European Symposium on Security and Privacy (EuroS&P)'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: '@inproceedings{stephens2018probabilistic,
-  title={Probabilistic Obfuscation Through Covert Channels},
-  author={Stephens, Jon and Yadegari, Babak and Collberg, Christian and Debray, Saumya and Scheidegger, Carlos},
-  booktitle={2018 IEEE European Symposium on Security and Privacy (EuroS\&P)},
-  year={2018},
-  organization={IEEE}
-}'
+citation: 
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
