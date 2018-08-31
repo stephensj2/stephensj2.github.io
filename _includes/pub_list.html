@@ -12,5 +12,14 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.link %}<a href="{{ post.link }}">{{ title }}</a>. {% else %}<u>{{ title }}</u>. {% endif %}{% if post.authors %}{{ post.authors }}. {% endif %}{% if post.status and post.shortvenue and post.year %}{{ post.status }} {{ post.shortvenue }} {{ post.year }}.{% endif %}
+{% if post.link %}
+  <a href="{{ post.link }}">{{ title }}</a>. 
+{% else %}
+  <u>{{ title }}</u>. 
+{% endif %}
+
+{% if post.authors %}
+  {{ post.authors }}. 
+{% endif %}
+{% if post.status and post.shortvenue and post.year %}{{ post.status }} {{ post.shortvenue }} {{ post.year }}.{% endif %}
 
