@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Welcome!"
   avatar           : "jon1.jpg"
-  bio              : I am a Computer Science PhD student in the {{ [UToPiA](http://google.com) | markdownify }} group at UT Austin. My interests include program analysis/verification, synthesis, and security.
+  bio              : I am a Computer Science PhD student in the [UToPiA](http://google.com) {{ site.baseurl }}{% link _collection/name-of-document.md %} group at UT Austin. My interests include program analysis/verification, synthesis, and security.
   location         : "The University of Texas at Austin"
   employer         :
   googlescholar    : #"http://yourfullgooglescholarurl.com"
