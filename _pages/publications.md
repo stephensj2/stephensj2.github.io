@@ -12,5 +12,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include pub_list.html | remove "<p>" | remove "</p>" %}
+  {% include pub_list.html | markdownify | remove "<p>" | remove "</p>" %}
 {% endfor %}
