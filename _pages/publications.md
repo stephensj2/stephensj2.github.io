@@ -12,5 +12,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% capture pub %} {% include pub_list.html %} {% endcapture %} {{ pub }}
+  {% capture pub %} {% include pub_list.html %} {% endcapture %} {{ pub | strip_whitespace }}
 {% endfor %}
