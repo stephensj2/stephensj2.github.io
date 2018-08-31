@@ -22,9 +22,15 @@ Full Text: [pdf]({{page.paperurl}})
 
 Bibtex: 
 @inproceedings{stephens2018probabilistic,
+
   title={Probabilistic Obfuscation Through Covert Channels},
+  
   author={Stephens, Jon and Yadegari, Babak and Collberg, Christian and Debray, Saumya and Scheidegger, Carlos},
+  
   booktitle={2018 IEEE European Symposium on Security and Privacy (EuroS&P)},
+  
   year={2018},
+  
   organization={IEEE}
+
 }
