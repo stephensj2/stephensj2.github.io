@@ -21,5 +21,11 @@
 {% if post.authors %}
   {{ post.authors }}. 
 {% endif %}
-{% if post.status and post.shortvenue and post.year %}{{ post.status }} {{ post.shortvenue }} {{ post.year }}.{% endif %}
 
+{% if post.status and post.shortvenue and post.year %}
+  {{ post.status }} {{ post.shortvenue }} {{ post.year }}. 
+{% endif %}
+
+{% if post.awards %}
+  ({{post.awards}}). 
+{% endif %}
