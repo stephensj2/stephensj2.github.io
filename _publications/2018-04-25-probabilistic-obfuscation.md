@@ -13,8 +13,15 @@ paperurl: 'https://stephensj2.github.io/files/probabilistic-obfuscation-covert.p
 awards:
 citation: 
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here]({{page.paperurl}})
+Authors: {{ page.authors }}
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Published In: {{ page.venue }}
+
+Abstract: {{ page.abstract }}
+
+[Download]({{page.paperurl}})
+
+{% if page.citation %}
+Bibtex: {{ page.citation }}
+{% endif %}
