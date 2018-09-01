@@ -11,7 +11,7 @@ redirect_from:
 You have stumbled upon my 
 
 Recent Publications
-=======
+-----
 
 <ul class="pub_list">
 {% for post in site.publications limit:3 reversed %}
