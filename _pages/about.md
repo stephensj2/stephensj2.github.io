@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-You have stumbled upon my 
+You have stumbled upon the webpage of a Jon Stephens. As there are many of us, I will provide some information to more uniquely identify myself. 
 
 Recent Publications
 -----
