@@ -52,7 +52,7 @@ More info about configuring academicpages can be found in [the guide](https://ac
 Recent Publications
 =======
 
-<ul>
+<ul class="pub_list">
 {% for post in site.publications limit:2 reversed %}
   {% capture pub %} {% include pub_list.html %} {% endcapture %} <li> {{ pub | strip_newlines }}
 {% endfor %}
