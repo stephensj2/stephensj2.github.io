@@ -24,9 +24,13 @@ Authors: {{ page.authors }}
 
 Abstract: {{ page.abstract }}
 
+{% if page.paperurl %}
 Full Text: [pdf]({{page.paperurl}})
+{% endif %}
 
+{% if page.citation %}
 Bibtex: 
 ```
 {{ page.citation }}
 ```
+{% endif %}
