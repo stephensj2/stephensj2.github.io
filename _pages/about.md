@@ -53,6 +53,6 @@ Recent Publications
 =======
 
 <ul>
-{% for post in site.publications reversed limit: 2 %}
+{% for post in site.publications limit:2 reversed %}
   {% capture pub %} {% include pub_list.html %} {% endcapture %} <li> {{ pub | strip_newlines }}
 {% endfor %}
