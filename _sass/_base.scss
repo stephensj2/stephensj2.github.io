@@ -111,12 +111,6 @@ blockquote {
 
 /* links */
 
-.pub_list {
-   a {
-      text-decoration: underline;
-   }
-}
-
 a {
   &:focus {
     @extend %tab-focus;
