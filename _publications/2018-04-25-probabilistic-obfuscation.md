@@ -11,6 +11,13 @@ status: 'In'
 authors: 'Jon Stephens, Babak Yadegari, Christian Collberg, Saumya Debray, Carlos Scheidegger'
 paperurl: 'https://stephensj2.github.io/files/probabilistic-obfuscation-covert.pdf'
 awards:
+citation: "@inproceedings{stephens2018probabilistic,\n
+  title={Probabilistic Obfuscation Through Covert Channels},\n
+  author={Stephens, Jon and Yadegari, Babak and Collberg, Christian and Debray, Saumya and Scheidegger, Carlos},\n
+  booktitle={2018 IEEE European Symposium on Security and Privacy (EuroS&P)},\n
+  year={2018},\n
+  organization={IEEE}\n
+}"
 ---
 
 Authors: {{ page.authors }}
