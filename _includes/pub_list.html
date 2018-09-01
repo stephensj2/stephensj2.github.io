@@ -26,6 +26,10 @@
   {{ post.status }} {{ post.shortvenue }} {{ post.year }}. 
 {% endif %}
 
+{% if post.paperurl %}
+[<a href="{{ post.paperurl }}">pdf</a>]. 
+{% endif %}
+
 {% if post.awards %}
   ({{post.awards}}). 
 {% endif %}
