@@ -27,6 +27,8 @@ Abstract: {{ page.abstract }}
 Full Text: [pdf]({{page.paperurl}})
 
 Bibtex: 
+{{ page.citation }}
+
 ```
 @inproceedings{stephens2018probabilistic,
   title={Probabilistic Obfuscation Through Covert Channels},
