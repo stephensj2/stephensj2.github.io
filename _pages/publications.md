@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-<ul>
+<ul class="pub_list">
 {% for post in site.publications reversed %}
   {% capture pub %} {% include pub_list.html %} {% endcapture %} <li> {{ pub | strip_newlines }}
 {% endfor %}
