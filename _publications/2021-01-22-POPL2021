@@ -1,7 +1,7 @@
 ---
 title: "Verifying Correct Usage of Context-Free API Protocols"
 collection: publications
-permalink: publication/POPL2021
+permalink: /publication/POPL2021
 abstract: "Dynamic taint analysis and symbolic execution find many important applications in security-related program analyses. However, current techniques for such analyses do not take proper account of control transfers due to exceptions. As a result, they can fail to account for implicit flows arising from exception-based control transfers, leading to loss of precision and potential false negatives in analysis results. While the idea of using exceptions for obfuscating (unconditional) control transfers is well known, we are not aware of any prior work discussing the use of exceptions to implement conditional control transfers and implicit information flows. This paper demonstrates the problems that can arise in existing dynamic taint analysis and symbolic execution systems due to exception-based implicit information flows and proposes a generic architecture-agnostic solution for reasoning about the behavior of code using user-defined exception handlers. Experimental results from a prototype implementation indicate that the ideas described produce better results than current state-of-the-art systems."
 date: 2021-01-22
 venue: 'Proceedings of the 48th ACM SIGPLAN Symposium on Principles of Programming Languages'
