@@ -1,6 +1,6 @@
 ---
 title: "Shou Sugi Ban Wood Table"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/other_table.jpg'>"
+excerpt: "Short description of portfolio item number 1<br/><img width='500' src='/images/other_table.jpg'>"
 collection: portfolio
 ---
 
