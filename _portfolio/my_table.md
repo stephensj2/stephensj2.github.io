@@ -1,6 +1,6 @@
 ---
 title: "Reclaimed Wood Table"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/my_table.jpg'>"
+excerpt: "Short description of portfolio item number 1<br/><img width='500' src='/images/my_table.jpg'>"
 collection: portfolio
 ---
 
