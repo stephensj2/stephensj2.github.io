@@ -14,6 +14,7 @@ Recent Publications
 -----
 
 <ul class="pub_list">
-{% for post in (site.publications | reverse | top:3) %}
+{% assign filtered = site.publications | reverse %}
+{% for post in filtered limit:3 %}
   {% capture pub %} {% include pub_list.html %} {% endcapture %} <li> {{ pub | strip_newlines }}
 {% endfor %}
