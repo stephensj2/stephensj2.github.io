@@ -14,6 +14,6 @@ Recent Publications
 -----
 
 <ul class="pub_list">
-{% for post in site.publications limit:3 reversed %}
+{% for post in site.publications reversed limit:3 reversed %}
   {% capture pub %} {% include pub_list.html %} {% endcapture %} <li> {{ pub | strip_newlines }}
 {% endfor %}
