@@ -1,7 +1,7 @@
 ---
-title: "Reclaimed Wood Table"
-excerpt: "Short description of portfolio item number 1<br/><img width='500' src='/images/my_table.jpg'>"
+title: "Reclaimed Wood Coffee Table"
+excerpt: "The tongue and groove top is made from reclaimed wood and the frame was stained using a coffee ground mixture.<br/><img width='500' src='/images/my_table.jpg'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This was the first piece of furniture I built. The reclaimed wood used to be flooring in a youth center.
