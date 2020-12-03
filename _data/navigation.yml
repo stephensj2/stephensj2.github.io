@@ -18,5 +18,5 @@ main:
   - title: "CV"
     url: /files/JonStephens_CV.pdf
     
-  #- title: "Guide"
-  #  url: /markdown/
+  - title: "Other"
+    url: /other/
